@@ -33,9 +33,9 @@ NC='\033[0m' # No Color
 LOG="/tmp/guacamole_${GUACVERSION}_build.log"
 
 # Initialize variable values
-installTOTP=1
+installTOTP=""
 installDuo=""
-installMySQL=1
+installMySQL=""
 mysqlHost=""
 mysqlPort=""
 mysqlRootPwd=""
